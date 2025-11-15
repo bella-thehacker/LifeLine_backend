@@ -56,6 +56,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "https://life-line-hospital-mangement-system.vercel.app",
     "http://localhost:3000",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
 
 ROOT_URLCONF = 'life_line_backend.urls'
